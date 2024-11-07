@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Foods of India</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .landing-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('india food.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+            background-blend-mode: overlay;
+            background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+        }
+
+        
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent navbar */
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #e63946;
+        }
+
+        
+        .content {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+                h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        
+        .explore-button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #ffffff;
+            background-color: #e63946;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .explore-button:hover {
+            background-color: #d62828;
+        }
+    </style>
+</head>
+<body>
+
+<div class="landing-page">
+    <!-- Navbar with links -->
+    <div class="navbar">
+        <div>
+            <a href="#home">Home</a>
+            <a href="#statewise-food">State-Wise Food</a>
+            <a href="#download-app">Download the App</a>
+            <a href="#customer-support">Customer Support</a>
+        </div>
+        <a href="#signin" class="explore-button">Sign In</a>
+    </div>
+
+    <!-- Main content section -->
+    <div class="content">
+        <h1>Famous Foods of India</h1>
+        <p>Discover the unique flavors of every Indian state</p>
+        <a href="#explore" class="explore-button">Explore Now</a>
+    </div>
+</div>
+
+</body>
+</html>
